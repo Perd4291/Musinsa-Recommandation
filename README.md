@@ -28,3 +28,7 @@ w2v_man = manhattan_distances(hashtag_embedding_list,hashtag_embedding_list)
 # Results
 ![Result1](https://user-images.githubusercontent.com/106437457/170859613-fd8d14f2-6659-4847-b647-9bbfa3ba4973.png)
 ![Result2](https://user-images.githubusercontent.com/106437457/170859666-21223cea-3225-4a7c-bd18-16738bf7b412.png)
+
+# References
+
+- [Word2Vec](https://github.com/ukairia777/tensorflow-nlp-tutorial/tree/main/09.%20Word%20Embedding)
