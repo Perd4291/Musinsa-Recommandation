@@ -8,6 +8,9 @@
 - gensim == 3.2.0
 
 # TF-IDF와 Word2Vec의 유사도 계산
+- 유사도 계산 방법으로는 코사인 유사도, 유클리디안 거리, 맨해튼 거리 3가지 방식을 사용합니다.
+- TF-IDF와 Word2Vec에서 각각 3가지의 유사도 계산이 있어 총 6가지의 계산 방법이 있습니다.
+
 ```python
 #TF-IDF
 tfidf = TfidfVectorizer(min_df = 1, ngram_range=(1,3))
@@ -20,4 +23,6 @@ word2vec_model = Word2Vec(size = 300, window = 5, min_count = 2, workers = 2)
 w2v_sim = cosine_similarity(hashtag_embedding_list, hashtag_embedding_list)
 w2v_euc = euclidean_distances(hashtag_embedding_list,hashtag_embedding_list)
 w2v_man = manhattan_distances(hashtag_embedding_list,hashtag_embedding_list)
-'''
+```
+
+# Results
