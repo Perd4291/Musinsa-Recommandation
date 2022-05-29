@@ -26,4 +26,4 @@ w2v_man = manhattan_distances(hashtag_embedding_list,hashtag_embedding_list)
 ```
 
 # Results
-![Result1](https://user-images.githubusercontent.com/106437457/170859480-cd50d22a-bd4d-4d1f-9b5b-6647f84963d3.png)
+![Result1](https://user-images.githubusercontent.com/106437457/170859613-fd8d14f2-6659-4847-b647-9bbfa3ba4973.png)
