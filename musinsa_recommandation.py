@@ -32,7 +32,6 @@ df = df[df['hashtag'].notna()]
 df.reset_index(drop=True, inplace=True)
 
 #TF-IDF
-
 tfidf = TfidfVectorizer(min_df = 1, ngram_range=(1,3))
 tag_tf = tfidf.fit_transform(df['hashtag'])
 
