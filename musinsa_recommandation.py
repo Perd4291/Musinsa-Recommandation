@@ -80,6 +80,8 @@ w2v_man = manhattan_distances(hashtag_embedding_list,hashtag_embedding_list)
 
 df = df.iloc[0:1441,]
 
+
+# 비슷한 상품 상위 5개를 
 def recommendations(name, similarity):
     clothes = df[['name', 'imgUrl']]
     
